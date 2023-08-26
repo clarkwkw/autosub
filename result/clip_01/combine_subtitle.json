@@ -1,0 +1,38 @@
+[
+    {
+        "name": "G+G",
+        "color_hex": "#AAAAAA",
+        "margin_bottom": 0,
+        "json_path": "result/clip_01/clip_01_gcloud_gcloud_no_context.json"
+    },
+    {
+        "name": "G+G/C",
+        "color_hex": "#AAAAAA",
+        "margin_bottom": 30,
+        "json_path": "result/clip_01/clip_01_gcloud_gcloud_with_context.json"
+    },
+    {
+        "name": "W+O",
+        "color_hex": "#C83CD2",
+        "margin_bottom": 60,
+        "json_path": "result/clip_01/clip_01_whisper_openai_no_context.json"
+    },
+    {
+        "name": "W+O/C",
+        "color_hex": "#C83CD2",
+        "margin_bottom": 90,
+        "json_path": "result/clip_01/clip_01_whisper_openai_with_context.json"
+    },
+    {
+        "name": "W+L",
+        "color_hex": "#FFFF00",
+        "margin_bottom": 120,
+        "json_path": "result/clip_01/clip_01_whisper_llama_no_context.json"
+    },
+    {
+        "name": "W+L/C",
+        "color_hex": "#FFFF00",
+        "margin_bottom": 150,
+        "json_path": "result/clip_01/clip_01_whisper_llama_with_context.json"
+    }
+]

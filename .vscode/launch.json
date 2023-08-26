@@ -1,0 +1,60 @@
+{
+    // https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Autosub: subtitle",
+            "type": "python",
+            "request": "launch",
+            "module": "autosub",
+            "justMyCode": true,
+            "args": [
+                "subtitle",
+                "clip_01.mp4",
+                "JA",
+                "EN",
+                "clip_01_whisper_llama_no_context.json",
+                //"--context",
+                //"context.json",
+                // Transcription options
+                "whisper",
+                "medium",
+                // Translation options
+                //"openai",
+                //"gpt-3.5-turbo",
+                "llama",
+                "/Users/clarkwong/Documents/llama/llama-2-13b-chat/ggml-model-q4_0.gguf"
+            ],
+            "envFile": "${workspaceFolder}/.creds/.env",
+        },
+
+        {
+            "name": "Autosub: context",
+            "type": "python",
+            "request": "launch",
+            "module": "autosub",
+            "justMyCode": true,
+            "args": [
+                "context",
+                "https://en.wikipedia.org",
+                "Attack on Titan",
+                "gpt-3.5-turbo",
+                "context.json"
+            ],
+            "envFile": "${workspaceFolder}/.creds/.env",
+        },
+
+        {
+            "name": "Autosub: combine subtitles",
+            "type": "python",
+            "request": "launch",
+            "module": "autosub",
+            "justMyCode": true,
+            "args": [
+                "combine",
+                "./result/clip_01/combine_subtitle.json",
+                "clip_01.combined.ass"
+            ],
+        }
+    ]
+}

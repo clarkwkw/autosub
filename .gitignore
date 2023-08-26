@@ -1,0 +1,15 @@
+**/__pycache__
+*.pyc
+venv/
+.creds/
+.DS_Store
+
+*.mkv
+*.mp3
+*.mp4
+*.wav
+*.ass
+.env
+
+/test*.py
+/*.json
