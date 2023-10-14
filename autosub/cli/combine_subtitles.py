@@ -12,6 +12,7 @@ def create_combine_subtitles_parser(subparser: ArgumentParser):
     subparser.add_argument('output')
     return subparser
 
+
 def combine_subtitles(args: Namespace):
     logger = logging.getLogger(__name__)
 
