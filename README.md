@@ -61,9 +61,13 @@ A few observations here:
 
 See: [Language Models are Few-Shot Learners](https://arxiv.org/abs/2005.14165)
 
+![Few-shots learners performance](/references/prompt_contexts.png)
+
 2. Create your own fine tuned model.
 
 See: [Training language models to follow instructions with human feedback](https://arxiv.org/abs/2203.02155)
+
+![Training steps of InstructGPT](/references/custom_training.png)
 
 This paper includes all the details of training InstructGPT, the predecessor of ChatGPT. Basically it is trained by:
 1. Collect sample input and desired output to fine tune GPT-3 in a supervised manner.
