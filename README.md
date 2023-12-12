@@ -1,4 +1,4 @@
-# LLM Application - Context based Subtitle Generation
+# LLM Expirment - Context Assisted Subtitle Generation
 
 Large language models (LLM) are good at transforming language sequence. Not only can it transform sequence, it can also take additional input (context) to fine tune the output.
 
